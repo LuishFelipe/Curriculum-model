@@ -8,12 +8,17 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background-color: aquamarine;
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+  padding-block-end: 100%;
+  background-color: aliceblue;
+  border: 10px;
+  border-color: black;
 }
 
 header {
