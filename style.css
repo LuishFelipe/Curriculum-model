@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -8,7 +9,9 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  backdrop-filter: url(commonfilters.svg#filter);
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+  background: repeating-linear-gradient(blue, red, rgb(241, 121, 22), yellow);
 }
 
 .container {
